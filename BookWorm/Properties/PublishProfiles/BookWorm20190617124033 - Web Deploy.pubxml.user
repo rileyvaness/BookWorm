@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkQnzu2hpI0mZHdSRKoJmVwAAAAACAAAAAAAQZgAAAAEAACAAAACZvsJqrrJ/N4ZXvSFfzg1Rj7RA6lU4h1Gns3GiEvKrQgAAAAAOgAAAAAIAACAAAADESDPYvXu5YXB0jFsTNk3rs6bF60XrmjLIpbzeTAWKXoAAAAAo1JDgWfPGLwJj/RfLnnuOliwxwB1jfw12V5BhCfikbiR0csmWHgUgA1lnEyodvpHeN82/KhC+RVJtMETGdHYdTVSJTFlD1bJtivAPLHcl4BX4fMJEeAGJ9vmSJ9L21S+FwuEeDNX2uHmA7MRvzXSHrvdOPDu7wrkq1KxhTC/ecUAAAAChEALrgCIt85vbUY0fs8vN/+wCeDGGsu2vl9wiBmESR8vF0jBz8wkIu5VY1TbXXJlk5cwQuP/Fa2lMqXztPX79</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BookWormContext">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=BookWormContext-ae842504-6a13-439a-b154-78a505b12c67%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

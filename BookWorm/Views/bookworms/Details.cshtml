@@ -1,0 +1,35 @@
+﻿@model BookWorm.Models.bookworm
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+    
+
+        <a asp-action="Index">
+            <i class="fa fa-arrow-circle-o-left" aria-hidden="true" id="backIcon"></i>
+            To Book List
+        </a> <br />
+<div>
+        Details on <i>@Html.DisplayFor(model => model.Title)</i> by  @Html.DisplayFor(model => model.Author)
+        <hr />
+        <dl class="row">
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.QuickSummary)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.QuickSummary)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Thoughts)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Thoughts)
+            </dd>
+        </dl>
+    </div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit <i>  @Html.DisplayFor(model => model.Title)  </i></a> 
+   
+</div>

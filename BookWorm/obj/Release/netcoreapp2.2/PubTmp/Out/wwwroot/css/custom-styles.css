@@ -1,0 +1,38 @@
+﻿@import url('custom-styles.css');
+body {
+  font-family: Poppins;
+}
+.container-footer {
+float: right;
+padding-right: 20px;
+}
+table {
+    width: 50%;
+  
+    
+}
+
+.input-index {
+    
+}
+.inputGroup {
+    width: 500px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+}
+#plusSign, #backIcon {
+    font-size: 1.5em;
+}
+p {
+    font-size: 1.1em;
+}
+#create {
+   
+    margin-left: 40px;
+    margin-right: 40px;
+}
+textarea {
+    width: 400px;
+}
